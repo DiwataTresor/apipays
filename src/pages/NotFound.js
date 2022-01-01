@@ -1,9 +1,9 @@
 import React from 'react';
 
-const NotFound = () => {
+const NotFound = (props) => {
     return (
         <div>
-            Page non trouvé
+            Page non trouvé {props.nom}
         </div>
     );
 };
